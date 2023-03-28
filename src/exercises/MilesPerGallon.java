@@ -6,12 +6,12 @@ public class MilesPerGallon {
         Scanner input = new Scanner(System.in);
 
         System.out.println("How many miles have you driven?");
-        Double milesDriven = input.nextDouble();
+        double milesDriven = input.nextDouble();
 
         System.out.println("How many gallons of gas have you consumed?");
-        Double gallonsOfGas = input.nextDouble();
+        double gallonsOfGas = input.nextDouble();
 
-        Double milesPerGallon = milesDriven / gallonsOfGas;
+        double milesPerGallon = milesDriven / gallonsOfGas;
         System.out.println("Your car gets " + milesPerGallon + " miles per gallon.");
     }
 
